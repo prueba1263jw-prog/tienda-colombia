@@ -1,0 +1,113 @@
+/* Reset de márgenes y padding para asegurar un diseño consistente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos globales para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif; /* Tipo de letra estándar */
+    background-color: #7ccf35; /* Fondo gris claro */
+    color: #333; /* Texto oscuro para mejorar la legibilidad */
+    line-height: 1.6; /* Espaciado entre líneas de texto */
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #333; /* Fondo oscuro para el encabezado */
+    color: #ffd230; /* Texto blanco */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centrar el texto */
+}
+
+header h1 {
+    font-size: 36px; /* Tamaño grande para el título principal */
+    margin-bottom: 10px; /* Separación entre el título y la navegación */
+}
+
+/* Estilos para la navegación */
+header nav ul {
+    list-style-type: none; /* Eliminar los puntos de la lista */
+}
+
+header nav ul li {
+    display: inline; /* Colocar los elementos en línea */
+    margin: 0 15px; /* Espaciado entre los elementos de la lista */
+}
+
+header nav ul li a {
+    color: #ffa2a2; /* Color blanco para los enlaces */
+    text-decoration: none; /* Quitar subrayado de los enlaces */
+    font-size: 18px; /* Tamaño de texto adecuado para los enlaces */
+}
+
+header nav ul li a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón por encima */
+}
+
+/* Estilos para la sección de productos */
+#productos {
+    margin: 40px auto; /* Espaciado 2superior e inferior */
+    max-width: 1200px; /* Ancho máximo de la sección */
+    text-align: center; /* Centrar los textos */
+}
+
+#productos h2 {
+    font-size: 30px; /* Tamaño de fuente grande para el subtítulo */
+    margin-bottom: 20px; /* Separación entre el subtítulo y los productos */
+}
+
+/* Estilos para cada producto */
+.producto {
+    display: inline-block; /* Los productos estarán en línea */
+    width: 45%; /* Cada producto ocupa el 45% del ancho */
+    margin: 20px 2.5%; /* Espaciado entre los productos */
+    background-color: #fff; /* Fondo blanco para cada producto */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil para dar profundidad */
+    padding: 20px; /* Espaciado interno de los productos */
+    text-align: center; /* Centrar el contenido del producto */
+}
+
+.producto img {
+    width: 100%; /* Las imágenes ocuparán todo el ancho disponible */
+    max-width: 200px; /* Limitar el tamaño máximo de las imágenes */
+    height: auto; /* Mantener la proporción de las imágenes */
+}
+
+.producto h3 {
+    font-size: 24px; /* Tamaño adecuado para el nombre del producto */
+    margin: 10px 0; /* Separación entre el nombre y la descripción */
+}
+
+.producto p {
+    font-size: 18px; /* Tamaño de texto adecuado para la descripción y el precio */
+    margin: 10px 0; /* Separación entre la descripción y el precio */
+}
+
+.producto button {
+    padding: 10px 20px; /* Espaciado dentro del botón */
+    font-size: 18px; /* Tamaño de fuente del botón */
+    background-color: #333; /* Fondo oscuro para el botón */
+    color: #8ao194; /* Texto blanco en el botón */
+    border: none; /* Quitar el borde del botón */
+    cursor: pointer; /* Cambiar el cursor cuando se pasa por encima */
+    margin-top: 10px; /* Separación superior */
+}
+
+.producto button:hover {
+    background-color: #555; /* Cambiar el fondo cuando se pasa el ratón por encima */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333; /* Fondo oscuro en el pie de página */
+    color: #e7180b; /* Texto blanco */
+    padding: 20px; /* Espaciado dentro del pie de página */
+    text-align: center; /* Centrar el contenido */
+    margin-top: 40px; /* Separación del contenido principal */
+}
+
+footer p {
+    font-size: 14px; /* Tamaño de fuente pequeño para el texto del pie */
+}
